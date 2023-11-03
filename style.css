@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    position: relative;
+}
+.container {
+    border: 2px solid rgb(224, 221, 221);
+    color: white;
+    background-color: rgb(216, 218, 188);
+    position: absolute;
+    padding: 35px;
+    padding-top: 50px;
+    margin: 200px 650px;
+    border-radius: 6px;
+}
+form {
+    display: block;
+    gap: 15px;
+}
+input, label, button {
+    display: block;
+}
+.formHeader {
+    text-align: center;
+    font-size: 50px;
+}
+input {
+    background-color: rgba(255, 255, 255, 0.07);
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 300px;
+    width: 400px;
+    border: none;
+    border-radius: 4px;
+}
+button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    width: 400px;   
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+#usernamePage{
+    margin-bottom: 30px;
+}
+label {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.shapes {
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+    position: absolute;
+    filter: blur(20px);
+}
+.shapeOne {
+    background-color: aqua;
+    top: -103px;
+    left: -83px;
+}
+.shapeTwo {
+    background-color: rgb(123, 202, 17607, 182);
+    bottom: -103px;
+    right: -90px
+}
